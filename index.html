@@ -1,231 +1,91 @@
 <!doctype html>
 <html lang="tr">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ege Öğütücü | Staj Portföyü</title>
-  <meta name="description" content="Ege Öğütücü - Python Backend odaklı staj portföy sitesi." />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ege Öğütücü | Python ve Backend Geliştirme Portföyü</title>
+  <meta name="description" content="Ege Öğütücü’nün kişisel portföyü. Python, backend geliştirme ve siber güvenlik odağındaki projeleri, BTK Akademi sertifikaları ve iletişim bilgileri.">
+  <meta name="keywords" content="Ege Öğütücü, Python, backend, portfolio, cybersecurity">
+  <meta name="theme-color" content="#12304A">
+  <link rel="canonical" href="https://www.egeogutucu.com/">
+  <link rel="alternate" hreflang="tr" href="https://www.egeogutucu.com/">
+  <link rel="alternate" hreflang="en" href="https://www.egeogutucu.com/EN.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.egeogutucu.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ege Öğütücü | Python ve Backend Geliştirme Portföyü">
+  <meta property="og:description" content="Ege Öğütücü’nün kişisel portföyü. Python, backend geliştirme ve siber güvenlik odağındaki projeleri, BTK Akademi sertifikaları ve iletişim bilgileri.">
+  <meta property="og:url" content="https://www.egeogutucu.com/">
+  <meta property="og:site_name" content="Ege Öğütücü">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:image" content="https://www.egeogutucu.com/assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ege Öğütücü | Python ve Backend Geliştirme Portföyü">
+  <meta name="twitter:description" content="Ege Öğütücü’nün kişisel portföyü. Python, backend geliştirme ve siber güvenlik odağındaki projeleri, BTK Akademi sertifikaları ve iletişim bilgileri.">
+  <meta name="twitter:image" content="https://www.egeogutucu.com/assets/social-card.png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon-32x32.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" href="assets/manrope-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css?v=ege-layers-1">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ege Öğütücü", "url": "https://www.egeogutucu.com/", "sameAs": ["https://github.com/Egeogutucu26", "https://www.linkedin.com/in/ege-%C3%B6%C4%9F%C3%BCt%C3%BCc%C3%BC-393560169"], "description": "Ben Ege. Ankara Medipol Üniversitesi’nde arka uç yazılım geliştirme öğrencisiyim."}</script>
+  <script src="site.js?v=ege-layers-1" defer></script>
 </head>
-
-<body>
-  <!-- NAV -->
-  <nav class="nav">
-    <div class="container nav-inner">
-      <a class="brand" href="#top">Ege<span>.</span></a>
-
-      <div class="nav-links">
-        <a href="#about">Hakkımda</a>
-        <a href="#projects">Projeler</a>
-        <a href="#certificates">Sertifikalar</a>
-        <a href="#skills">Yetenekler</a>
-        <a href="#contact">İletişim</a>
-      </div>
-
-      <div class="nav-actions">
-        <!-- Vercel hatasını önlemek için dosya adını GitHub'daki gibi EN.html yaptık -->
-        <a class="pill" href="EN.html">EN</a>
-        <a class="btn btn-sm" href="#contact">Staj için İletişim</a>
-      </div>
+<body id="top">
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Ege Öğütücü"><span class="brand-mark" aria-hidden="true">e<span>.</span></span><span class="brand-name">Ege Öğütücü</span></a>
+      <nav class="desktop-nav" aria-label="Ana menü"><a href="#about" data-section="about">Hakkımda</a><a href="#projects" data-section="projects">Projeler</a><a href="#certificates" data-section="certificates">Sertifikalar</a><a href="#contact" data-section="contact">İletişim</a></nav>
+      <div class="header-actions"><a class="language-link" href="EN.html" hreflang="en" lang="en" aria-label="View this website in English">EN</a><a class="nav-contact" href="#contact">Birlikte konuşalım <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Menüyü aç" data-open-label="Menüyü aç" data-close-label="Menüyü kapat"><span></span><span></span></button></div>
     </div>
-  </nav>
-
-  <!-- HERO -->
-  <main id="top" class="hero">
-    <div class="container hero-grid">
-      <!-- SOL -->
-      <div>
-        <p class="badge">Python Backend • API • Otomasyon</p>
-        <h1>Staj odaklı <span class="accent">Portföy</span></h1>
-        <p class="subtitle">
-          Ankara Medipol Üniversitesi'nde arka uç yazılım geliştirme öğrencisiyim. Python ile backend geliştirme, 
-          API entegrasyonları ve otomasyon projeleri üretiyorum. Stajda gerçek projelerde sorumluluk alarak gelişmeyi hedefliyorum.
-        </p>
-
-        <div class="cta">
-          <a class="btn" href="#projects">Projeleri Gör</a>
-          <a class="btn btn-ghost" href="https://github.com/Egeogutucu26" target="_blank" rel="noreferrer noopener">GitHub</a>
+    <nav class="mobile-nav container" id="mobile-nav" aria-label="Mobil menü" data-open="false"><a href="#about" data-section="about">Hakkımda</a><a href="#projects" data-section="projects">Projeler</a><a href="#certificates" data-section="certificates">Sertifikalar</a><a href="#contact" data-section="contact">İletişim</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>Staj fırsatlarına açığım</p>
+          <h1 class="hero-name" id="hero-title"><span>Ege</span><span>Öğütücü<span class="clay">.</span></span></h1>
+          <h2 class="hero-role">Python, backend ve bitmeyen bir merak.</h2>
+          <p class="hero-description">Kodun arkasındaki mantığı anlamayı, küçük fikirleri çalışan projelere dönüştürmeyi seviyorum. Yazılım geliştiriyorum. Öğrenmeye devam ediyorum.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#projects">Projelerimi keşfet <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="button button-outline" href="#contact">İletişime geç</a></div>
+          <a class="hero-social" href="https://github.com/Egeogutucu26" target="_blank" rel="noopener noreferrer">GitHub profilim <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
-
-        <div class="stats">
-          <div class="stat">
-            <div class="k">Odak</div>
-            <div class="v">Backend</div>
-          </div>
-          <div class="stat">
-            <div class="k">Teknoloji</div>
-            <div class="v">Python</div>
-          </div>
-          <div class="stat">
-            <div class="k">Hedef</div>
-            <div class="v">Staj</div>
-          </div>
-        </div>
+        <div class="hero-art"><img class="hero-art-image" src="assets/coastal-layers.webp" width="800" height="1000" alt="Lacivert ve kil tonlarında, Ege kıyılarından esinlenen soyut katmanlı heykeller" fetchpriority="high"><div class="art-label"><span>EGE KATMANLARI</span><span>Merak. Üretim. Gelişim.</span></div></div>
       </div>
-
-      <!-- SAĞ: PROFİL KARTI -->
-      <aside class="card profile">
-        <div class="avatar">EÖ</div>
-        <div class="p-name">Ege Öğütücü</div>
-        <div class="p-role">Python Backend (Staj Adayı)</div>
-
-        <div class="p-links">
-          <a href="mailto:egeogutucu@gmail.com">E-mail</a>
-          <a href="https://github.com/Egeogutucu26" target="_blank" rel="noreferrer noopener">GitHub Profilim</a>
-          <a href="https://www.linkedin.com/in/ege-öğütücü-393560169" target="_blank" rel="noreferrer noopener">LinkedIn Profilim</a>
-        </div>
-
-        <div class="p-note">
-          Staj sürecinde ekip içinde çalışmaya, geri bildirim almaya ve hızlı öğrenmeye açığım.
-        </div>
-      </aside>
-    </div>
+      <div class="container hero-note"><span>PYTHON / BACKEND / CYBERSECURITY</span><a class="scroll-link" href="#about">Aşağı kaydır <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <div class="tech-strip"><div class="container tech-strip-inner"><span class="strip-label">ÇALIŞMA ALANIM</span><div class="tech-items"><span>Python</span><span>API &amp; JSON</span><span>Git / GitHub</span><span>Linux</span></div></div></div>
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-layout"><div><p class="section-kicker"><span class="section-number">01 /</span> BENİM HİKÂYEM</p><h2 id="about-title">Meraktan koda.<br>Her gün bir adım daha.</h2></div><div class="about-copy"><p class="about-lead">Ben Ege. Ankara Medipol Üniversitesi’nde arka uç yazılım geliştirme öğrencisiyim.</p><p>Python ile backend geliştirme, API entegrasyonları ve otomasyon üzerine çalışıyorum. Siber güvenlik ve Linux da öğrenme yolculuğumun bir parçası. Git ve GitHub ile çalışmalarımı düzenli tutuyor; öğrendiklerimi küçük, somut projelerde deniyorum.</p><p>Şimdi, gerçek görevler üstlenebileceğim, geri bildirimle gelişebileceğim ve bir ekiple birlikte üretebileceğim bir staj fırsatı arıyorum.</p></div></div>
+        <div class="about-values"><div class="value-item"><span class="value-index">01</span><h3>Merakla öğrenmek</h3><p>Nasıl çalıştığını anlamak, doğru soruları sormak ve yeni şeyler denemek.</p></div><div class="value-item"><span class="value-index">02</span><h3>Düzenli üretmek</h3><p>Fikirleri küçük adımlara bölmek, temiz bir proje yapısı ve okunabilir kodla ilerlemek.</p></div><div class="value-item"><span class="value-index">03</span><h3>Birlikte gelişmek</h3><p>Geri bildirime açık olmak, iletişim kurmak ve takımın bir parçası olarak katkı sunmak.</p></div></div>
+        <div class="skills-line"><p>Kullandığım ve öğrendiğim teknolojiler</p><div class="tags"><span>Python</span><span>API / JSON</span><span>Git &amp; GitHub</span><span>Linux</span><span>HTML / CSS (temel)</span></div></div>
+      </div>
+    </section>
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="container"><div class="section-heading"><div><p class="section-kicker"><span class="section-number">02 /</span> KODDAN ÇIKANLAR</p><h2 id="projects-title">Öğrendiklerim,<br>projelere dönüşüyor.</h2></div><p class="section-intro">GitHub’da paylaştığım çalışmalar. Küçük denemeler, yeni fikirler ve devam eden bir öğrenme süreci.</p></div><div class="project-list"><article class="project-card reveal">
+          <div class="project-visual visual-python"><span class="project-number">01 /</span><div class="project-symbol"><svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="m39 40-22 20 22 20m42-40 22 20-22 20M70 27 50 93" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="project-status">python-projects</span></div>
+          <div class="project-body"><p class="project-type">PYTHON / ÖĞRENME</p><h3 class="project-title">Python Pratik Projeleri</h3><p class="project-description">Şehir hava durumunu wttr.in üzerinden alan uygulama, Hacker News başlıklarını çeken web scraping çalışması ve dört işlem yapan CLI hesap makinesi. Öğrendiklerimi küçük uygulamalarla pekiştiriyorum.</p><div class="tags"><span>Python</span><span>Requests</span><span>BeautifulSoup</span></div><a class="project-link" href="https://github.com/Egeogutucu26/python-projects" target="_blank" rel="noopener noreferrer" aria-label="Python Pratik Projeleri: Depoyu incele, yeni sekmede açılır">Depoyu incele <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </article><article class="project-card reveal">
+          <div class="project-visual visual-network"><span class="project-number">02 /</span><div class="project-symbol"><svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><circle cx="60" cy="60" r="39" stroke="currentColor" stroke-width="2"/><ellipse cx="60" cy="60" rx="18" ry="39" stroke="currentColor" stroke-width="2"/><path d="M23 47h74M23 73h74M60 21v78" stroke="currentColor" stroke-width="2"/></svg></div><span class="project-status">Python-vpn</span></div>
+          <div class="project-body"><p class="project-type">AĞ / KEŞİF</p><h3 class="project-title">Python VPN & Ağ İzleme</h3><p class="project-description">IP bilgisi ve konumu, CSV loglama, isteğe bağlı Telegram bildirimleri ve ping/hız testi yardımcıları içeren bir Python çalışması. Odak noktası ağ izleme ve tanılama; VPN tüneli yöneten bir servis değil.</p><div class="tags"><span>Python</span><span>CSV</span><span>Telegram API</span></div><a class="project-link" href="https://github.com/Egeogutucu26/Python-vpn" target="_blank" rel="noopener noreferrer" aria-label="Python VPN &amp; Ağ İzleme: Depoyu incele, yeni sekmede açılır">Depoyu incele <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </article><article class="project-card reveal">
+          <div class="project-visual visual-auth"><span class="project-number">03 /</span><div class="project-symbol"><svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><rect x="28" y="49" width="64" height="49" rx="5" stroke="currentColor" stroke-width="2"/><path d="M41 49V34a19 19 0 0 1 38 0v15" stroke="currentColor" stroke-width="2"/><circle cx="60" cy="70" r="5" stroke="currentColor" stroke-width="2"/><path d="M60 75v9" stroke="currentColor" stroke-width="2"/></svg></div><span class="project-status">supabase-auth-api</span></div>
+          <div class="project-body"><p class="project-type">WEB / KİMLİK DOĞRULAMA</p><h3 class="project-title">Supabase Auth REST API</h3><p class="project-description">Express ve Supabase Auth ile kayıt, giriş, çıkış ve token yenileme akışları. Bearer token ile korunan profil okuma/güncelleme endpoint’leri ve RLS için SQL kurulumu. Kaynak kod projesidir; canlı servis demosu değildir.</p><div class="tags"><span>Node.js</span><span>Express</span><span>Supabase</span><span>REST API</span></div><a class="project-link" href="https://github.com/Egeogutucu26/supabase-auth-api" target="_blank" rel="noopener noreferrer" aria-label="Supabase Auth REST API: Depoyu incele, yeni sekmede açılır">Depoyu incele <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </article></div><a class="project-link all-projects" href="https://github.com/Egeogutucu26?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub’daki tüm herkese açık çalışmalarım <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+    </section>
+    <section class="section certificates-section" id="certificates" aria-labelledby="certificates-title">
+      <div class="container"><div class="section-heading"><div><p class="section-kicker"><span class="section-number">03 /</span> ÖĞRENME İZLERİ</p><h2 id="certificates-title">Bilgiyi büyütmek.<br>Adım adım.</h2></div><p class="section-intro">BTK Akademi’de tamamladığım eğitimler. Her sertifikanın özgün PDF belgesini açabilirsin.</p></div><div class="certificate-list"><article class="certificate-row"><span class="certificate-number">01</span><div class="certificate-title"><h3>Ağ Temelleri</h3><p class="certificate-provider">BTK Akademi</p></div><time class="certificate-date" datetime="2026-01-02">02 Ocak 2026</time><a class="certificate-link" href="ag-temelleri.pdf" target="_blank" rel="noopener noreferrer" aria-label="Ağ Temelleri: Belgeyi aç, yeni sekmede açılır">Belgeyi aç <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></article><article class="certificate-row"><span class="certificate-number">02</span><div class="certificate-title"><h3>Siber Güvenliğe Giriş</h3><p class="certificate-provider">BTK Akademi</p></div><time class="certificate-date" datetime="2025-12-31">31 Aralık 2025</time><a class="certificate-link" href="siber-linux.pdf" target="_blank" rel="noopener noreferrer" aria-label="Siber Güvenliğe Giriş: Belgeyi aç, yeni sekmede açılır">Belgeyi aç <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></article><article class="certificate-row"><span class="certificate-number">03</span><div class="certificate-title"><h3>Siber Güvenlikte Linux İşletim Sistemleri</h3><p class="certificate-provider">BTK Akademi</p></div><time class="certificate-date" datetime="2026-01-09">09 Ocak 2026</time><a class="certificate-link" href="siber-guvenlik-giris.pdf" target="_blank" rel="noopener noreferrer" aria-label="Siber Güvenlikte Linux İşletim Sistemleri: Belgeyi aç, yeni sekmede açılır">Belgeyi aç <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></article><article class="certificate-row"><span class="certificate-number">04</span><div class="certificate-title"><h3>Sıfırdan İleri Seviye Python Programlama</h3><p class="certificate-provider">BTK Akademi</p></div><time class="certificate-date" datetime="2026-04-30">30 Nisan 2026</time><a class="certificate-link" href="python-siber.pdf" target="_blank" rel="noopener noreferrer" aria-label="Sıfırdan İleri Seviye Python Programlama: Belgeyi aç, yeni sekmede açılır">Belgeyi aç <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></article></div></div>
+    </section>
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container"><div class="contact-layout"><div><p class="section-kicker contact-eyebrow"><span class="section-number">04 /</span> BİR SONRAKİ ADIM</p><h2 class="contact-heading" id="contact-title">Güzel işler,<br>bir merhabayla başlar.</h2><p class="contact-intro">Bir staj fırsatı, proje fikri ya da sadece bir merhaba. Mesajını okumayı isterim.</p></div><div><a class="contact-email" href="mailto:egeogutucu@gmail.com">egeogutucu<span>@gmail.com</span></a><div class="contact-actions"><a class="button button-primary" href="mailto:egeogutucu@gmail.com">E-posta gönder <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a><button class="copy-button" type="button" data-copy="egeogutucu@gmail.com" data-success="E-posta adresi kopyalandı." data-failure="Kopyalanamadı. Adresi seçerek kopyalayabilirsin.">E-postayı kopyala</button></div><div class="contact-socials"><a href="https://github.com/Egeogutucu26" target="_blank" rel="noopener noreferrer">GitHub <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a href="https://www.linkedin.com/in/ege-%C3%B6%C4%9F%C3%BCt%C3%BCc%C3%BC-393560169" target="_blank" rel="noopener noreferrer">LinkedIn <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></div></div>
+    </section>
   </main>
-
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>Hakkımda</h2>
-      <p class="lead">
-        Python ile backend geliştirme ve siber güvenlik üzerine projeler üretiyorum. 
-        Git/GitHub ile versiyon kontrol kullanıyorum ve MacBook Air M4 üzerinde Linux sanallaştırma ortamlarında çalışabiliyorum.
-      </p>
-
-      <div class="two">
-        <div class="card">
-          <h3>Ne arıyorum?</h3>
-          <p>Python backend / yazılım geliştirme odaklı staj. Gerçek görevler alıp çıktılar üretmek istiyorum.</p>
-        </div>
-        <div class="card">
-          <h3>Ne sunuyorum?</h3>
-          <p>Disiplinli çalışma, temiz proje yapısı, hızlı öğrenme ve iletişime açık takım yaklaşımı.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
-    <div class="container">
-      <div class="head">
-        <h2>Projeler</h2>
-        <p class="muted">Aktif olarak geliştirdiğim Python projelerim.</p>
-      </div>
-
-      <div class="grid">
-        <article class="card project">
-          <h3>Binance Trading Bot</h3>
-          <p>API entegrasyonu ile veri çekme, işleme ve senaryo testleri. Hata yönetimi ve loglama denemeleri.</p>
-          <div class="tags"><span>Python</span><span>REST API</span><span>Log</span></div>
-          <a class="link" href="https://github.com/Egeogutucu26" target="_blank" rel="noreferrer noopener">GitHub →</a>
-        </article>
-
-        <article class="card project">
-          <h3>Weather App</h3>
-          <p>Hava durumu API’sinden veri çekip kullanıcıya sunan uygulama. JSON ve istek yönetimi.</p>
-          <div class="tags"><span>Python</span><span>Requests</span><span>JSON</span></div>
-          <a class="link" href="https://github.com/Egeogutucu26" target="_blank" rel="noreferrer noopener">GitHub →</a>
-        </article>
-
-        <article class="card project">
-          <h3>File Organizer</h3>
-          <p>Dosyaları uzantısına göre klasörlere ayıran otomasyon scripti. Temiz klasör yapısı.</p>
-          <div class="tags"><span>Python</span><span>Automation</span></div>
-          <a class="link" href="https://github.com/Egeogutucu26" target="_blank" rel="noreferrer noopener">GitHub →</a>
-        </article>
-
-        <article class="card project">
-          <h3>Web Scraper</h3>
-          <p>Belirli sayfalardan veri çekme ve kaydetme denemeleri. Veri işleme pratiği.</p>
-          <div class="tags"><span>Python</span><span>Parsing</span></div>
-          <a class="link" href="https://github.com/Egeogutucu26" target="_blank" rel="noreferrer noopener">GitHub →</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- CERTIFICATES -->
-  <section id="certificates" class="section">
-    <div class="container">
-      <div class="head">
-        <h2>Sertifikalar</h2>
-        <p class="muted">BTK Akademi ve Siber Vatan programlarından aldığım sertifikalar.</p>
-      </div>
-
-      <div class="grid">
-        <article class="card project">
-          <h3>Ağ Temelleri</h3>
-          <p>BTK Akademi • 2024</p>
-          <a class="link" href="ag-temelleri.pdf" target="_blank" rel="noreferrer noopener">PDF Görüntüle →</a>
-        </article>
-
-        <article class="card project">
-          <h3>Siber Güvenliğe Giriş</h3>
-          <p>BTK Akademi • 2025</p>
-          <a class="link" href="siber-linux.pdf" target="_blank" rel="noreferrer noopener">PDF Görüntüle →</a>
-        </article>
-
-        <article class="card project">
-          <h3>Siber Güvenlikte Linux</h3>
-          <p>BTK Akademi • 2025</p>
-          <a class="link" href="siber-guvenlik-giris.pdf" target="_blank" rel="noreferrer noopener">PDF Görüntüle →</a>
-        </article>
-
-        <article class="card project">
-          <h3>Python ile Siber Güvenlik</h3>
-          <p>BTK Akademi • 2025</p>
-          <a class="link" href="python-siber.pdf" target="_blank" rel="noreferrer noopener">PDF Görüntüle →</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="section">
-    <div class="container">
-      <h2>Yetenekler</h2>
-      <div class="skills">
-        <span class="chip">Python</span>
-        <span class="chip">API / JSON</span>
-        <span class="chip">Git & GitHub</span>
-        <span class="chip">Linux</span>
-        <span class="chip">HTML/CSS (temel)</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>İletişim</h2>
-      <p class="lead">Staj için iletişime geçmek istersen:</p>
-
-      <div class="cta">
-        <a class="btn" href="mailto:egeogutucu@gmail.com">Mail Gönder</a>
-        <a class="btn btn-ghost" href="https://github.com/Egeogutucu26" target="_blank" rel="noreferrer noopener">GitHub</a>
-        <a class="btn btn-ghost" href="https://www.linkedin.com/in/ege-öğütücü-393560169" target="_blank" rel="noreferrer noopener">LinkedIn</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      © <span id="year"></span> Ege Öğütücü • Staj Portföyü
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="#top">Ege Öğütücü<span class="clay">.</span></a><p class="footer-note">© <span id="year">2026</span> · Merakla öğreniyor, özenle üretiyorum.</p><a class="back-top" href="#top">Başa dön ↑</a></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 </body>
-
 </html>
